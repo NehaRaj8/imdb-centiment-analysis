@@ -22,7 +22,7 @@ This project demonstrates the complete deep learning workflow:
 
 ---
 
-# 🎯 Business Problem
+#  Business Problem
 
 Understanding customer opinions from large volumes of text data is valuable across industries such as:
 
@@ -36,7 +36,7 @@ Manual review of thousands of comments is time-consuming. An automated sentiment
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 | Category | Technology |
 |---|---|
@@ -51,7 +51,7 @@ Manual review of thousands of comments is time-consuming. An automated sentiment
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 IMDB-Sentiment-Analysis/
@@ -73,7 +73,7 @@ IMDB-Sentiment-Analysis/
 
 ---
 
-# 📊 Dataset
+#  Dataset
 
 The project uses the **IMDB Movie Review Dataset** containing:
 
@@ -155,7 +155,7 @@ The embedding layer learns a 128-dimensional representation of words during trai
 
 ---
 
-# 🧠 Model Architecture
+#  Model Architecture
 
 The Simple RNN model consists of:
 
@@ -186,7 +186,7 @@ Sentiment Prediction
 
 ---
 
-# 🔁 Model Retraining & Version Compatibility
+#  Model Retraining & Version Compatibility
 
 The original pre-trained `.h5` model file was outdated and incompatible with the current TensorFlow/Keras environment.
 
@@ -202,7 +202,7 @@ This ensured the project remained reproducible and compatible with modern deep l
 
 ---
 
-# 📈 Model Evaluation
+#  Model Evaluation
 
 The trained model was evaluated on unseen IMDB test data.
 
@@ -227,7 +227,7 @@ Confidence: 95%
 
 ---
 
-# 🚀 Running the Project
+#  Running the Project
 
 ## 1. Clone Repository
 
@@ -278,7 +278,7 @@ streamlit run app.py
 
 ---
 
-# 💡 Key Learnings
+#  Key Learnings
 
 Through this project I gained practical experience in:
 
@@ -293,7 +293,7 @@ Through this project I gained practical experience in:
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 Potential enhancements:
 
@@ -306,7 +306,7 @@ Potential enhancements:
 
 ---
 
-# 👤 Author
+#  Author
 
 **Neha Raj**
 
