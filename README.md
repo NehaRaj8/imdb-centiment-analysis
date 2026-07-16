@@ -269,13 +269,13 @@ notebooks/IMDB_Simple_RNN.ipynb
 ```
 
 
-## 5. Run Streamlit App (if included)
+## 5. Run Streamlit App 
 
 ```bash
 streamlit run app.py
 ```
 
-
+![alt text](image.png)
 ---
 
 #  Key Learnings
