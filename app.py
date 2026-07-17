@@ -28,7 +28,12 @@ def preprocess_text(text):
 
     words = text.split()
 
-    encoded = [word_index.get(word, 2) + 3 for word in words]
+    encoded = []
+    for word in words:
+        idx = word_index.get(word, 2) + 3
+        if idx >= VOCAB_SIZE:
+            idx = 2  # treat as out-of-vocab
+        encoded.append(idx)
 
     padded = pad_sequences([encoded], maxlen=MAX_LEN)
 
