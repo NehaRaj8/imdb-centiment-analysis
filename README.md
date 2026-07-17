@@ -119,6 +119,14 @@ Words outside this vocabulary are handled using an unknown token.
 
 Movie reviews have different lengths, but neural networks require fixed-size inputs.
 
+The distribution of IMDB review lengths was analysed before padding.
+
+Most reviews contain fewer than 500 tokens, while longer reviews form a smaller proportion of the dataset. Therefore, a maximum sequence length of 500 was selected to balance:
+
+- retaining meaningful review context
+- reducing computational complexity
+- providing consistent input dimensions for the RNN model
+
 pad_sequences() was used to standardise all reviews to 500 tokens:
 
 max_length = 500
@@ -294,6 +302,8 @@ Through this project I gained practical experience in:
 ---
 
 #  Future Improvements
+
+The goal of this project was to demonstrate the fundamentals of sequence modelling using recurrent neural networks. A Simple RNN provides a lightweight baseline that is easier to understand and train. For production systems requiring higher accuracy, I would evaluate LSTM, GRU, or Transformer-based models such as BERT
 
 Potential enhancements:
 
